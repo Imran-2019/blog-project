@@ -1,0 +1,174 @@
+
+.indexbody {
+    background-image: url("homepage.png");
+    background-repeat: no-repeat, repeat;
+    background-size: 100% 100%;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+.paragraph {font-family: 'Permanent Marker', cursive;
+font-size: 100px;
+text-align: center;
+color: #E85038;
+box-sizing: border-box;
+padding-bottom: 10px 100px 10px
+
+}
+@keyframes blinkingText{
+
+    0%{     color: rgb(82, 10, 10);    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: rgb(90, 15, 15);    }
+    
+}
+
+
+.blinking {
+    animation:blinkingText 0.9s infinite;
+    font-size: 50px;
+    margin: 40%
+}
+
+
+ 
+
+
+h1 { 
+color: white;
+font-size: 26px;
+}
+
+h2 {
+    color: white;
+    font-size: 26px;
+}
+
+* {
+   
+    box-sizing: border-box;
+    /*margin: 30px;*/
+}
+
+
+
+.page1image {
+    background-image: url("page1background.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: 100% 100%;
+
+}
+
+.centerlarge {
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+
+
+.container {
+    display: flex;
+    min-height: 100px;
+    flex-direction: row; 
+    /*flex: 1;*/
+    width: auto;
+    
+}
+
+
+.transparent {
+    background-color: white;
+    
+}
+
+.box {
+    padding: 15px;
+    flex:1;
+    color: white;
+    text-align: center;
+    
+}
+
+#mbisonimage {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#balrogimage {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+#ehondaimage {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+
+#ryuimage {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.background1 {
+    background-image:url("background1.jpg");
+    background-size: auto;
+    background-repeat: no-repeat, repeat;
+    background-size: 100% 100%;
+}
+
+a { 
+    color: white;
+
+}
+
+p {
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    margin: 30px;
+    padding: 10px;
+}
+
+
+
+.background2 {
+    background-image:url("background2.jpg");
+    background-size: auto;
+    background-repeat: no-repeat, repeat;
+    background-size: 100% 100%;
+}
+
+/* a { 
+    color: white;
+
+}
+
+p {
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    margin: 30px;
+    padding: 10px;
+} */
+
+.background3 {
+    background-image:url("background3.gif");
+    background-size: auto;
+    background-repeat: no-repeat, repeat;
+    background-size: 100% 100%;
+}
+
+.background4 {
+    background-image:url("background4.jpg");
+    background-size: auto;
+    background-repeat: no-repeat, repeat;
+    background-size: 100% 100%;
+}
